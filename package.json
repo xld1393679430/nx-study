@@ -2,7 +2,9 @@
   "name": "package-based",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:first-app": "npx nx build first-app"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
