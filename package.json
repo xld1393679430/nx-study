@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:first-app": "npx nx build first-app"
+    "build-all": "npx nx run-many --target=build",
+    "build:first-app": "npx nx build first-app",
+    "build:two-app": "npx nx build two-app"
   },
   "private": true,
   "devDependencies": {
